@@ -1,0 +1,59 @@
+2024-04-03 01:46:29,821 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-03 01:46:48,762 (INFO) - playground.views - Calling httpbin
+2024-04-03 01:46:51,521 (INFO) - playground.views - Received the response
+2024-04-03 01:47:49,097 (INFO) - django.utils.autoreload - /Users/ermiyasggod/Desktop/DjangoProject/storefront3/storefront/settings.py changed, reloading.
+2024-04-03 01:47:50,765 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-03 01:48:30,319 (INFO) - playground.views - Calling httpbin
+2024-04-03 01:48:33,220 (INFO) - playground.views - Received the response
+2024-04-03 01:49:30,135 (INFO) - playground.views - Calling httpbin
+2024-04-03 01:49:32,875 (INFO) - playground.views - Received the response
+2024-04-03 02:12:12,062 (INFO) - django.utils.autoreload - /Users/ermiyasggod/Desktop/DjangoProject/storefront3/manage.py changed, reloading.
+2024-04-03 02:16:11,989 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-03 02:16:20,823 (INFO) - playground.views - Calling httpbin
+2024-04-03 02:16:23,592 (INFO) - playground.views - Received the response
+2024-04-03 02:18:28,589 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:18:28,613 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:18:28,631 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:22:30,982 (INFO) - django.utils.autoreload - /Users/ermiyasggod/Desktop/DjangoProject/storefront3/storefront/settings/common.py changed, reloading.
+2024-04-03 02:22:32,660 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-03 02:22:37,316 (INFO) - django.utils.autoreload - /Users/ermiyasggod/Desktop/DjangoProject/storefront3/storefront/settings/common.py changed, reloading.
+2024-04-03 02:23:22,260 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:23:22,287 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:23:22,312 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:25:46,257 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:25:46,274 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:25:46,282 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:28:14,459 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:28:14,476 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:28:14,485 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:29:55,100 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:29:55,113 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:29:55,123 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:30:13,900 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:30:13,910 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:30:13,919 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:30:35,742 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:30:35,758 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:30:35,768 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:30:51,165 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:30:51,178 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:30:51,187 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:33:09,105 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:33:09,119 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:33:09,129 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:33:30,305 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:33:30,318 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:33:30,330 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:33:48,426 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:33:48,442 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:33:48,460 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:36:36,469 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:36:36,483 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:36:36,493 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:38:04,042 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:38:04,061 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:38:04,071 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:38:25,838 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-04-03 02:38:25,854 (WARNING) - django.request - Forbidden: /store/collections/
+2024-04-03 02:38:25,867 (WARNING) - django.request - Bad Request: /store/collections/
+2024-04-03 02:44:16,220 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
