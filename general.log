@@ -206,3 +206,218 @@
 2024-04-05 07:05:06,385 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
 2024-04-05 07:05:09,418 (INFO) - playground.views - Calling httpbin
 2024-04-05 07:05:12,608 (INFO) - playground.views - Received the response
+2024-04-05 07:26:25,890 (INFO) - playground.views - Calling httpbin
+2024-04-05 07:26:28,900 (INFO) - playground.views - Received the response
+2024-04-05 07:26:57,531 (WARNING) - django.request - Unauthorized: /auth/users/me/
+2024-04-05 07:27:09,957 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create/
+2024-04-05 07:27:56,055 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create
+2024-04-05 07:28:28,785 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:28,788 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:28,792 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:47,375 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:47,390 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:57,168 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:57,169 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:57,171 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:28:57,174 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:04,606 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:04,622 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:04,628 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:08,473 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:08,474 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:08,478 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:12,122 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:12,124 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:12,127 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:12,203 (WARNING) - django.request - Not Found: /store/products/1001/
+2024-04-05 07:29:43,103 (WARNING) - django.request - Not Found: /store/collections/1/
+2024-04-05 07:29:48,104 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:29:48,154 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2024-04-05 07:29:51,135 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:30:09,782 (WARNING) - django.request - Bad Request: /store/orders/
+2024-04-05 07:30:29,442 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1048, "Column 'user_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 160, in _record
+    return method(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1048, "Column 'user_id' cannot be null")
+2024-04-05 07:33:19,940 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1048, "Column 'user_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 160, in _record
+    return method(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/ermiyasggod/.local/share/virtualenvs/storefront3-SbeUFEq5/lib/python3.9/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1048, "Column 'user_id' cannot be null")
+2024-04-05 07:44:32,237 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:44:44,840 (WARNING) - django.request - Not Found: /core
+2024-04-05 07:46:14,019 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:46:25,840 (WARNING) - django.request - Not Found: /user
+2024-04-05 07:49:49,728 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-04-05 07:51:37,639 (WARNING) - django.request - Not Found: /tags
+2024-04-05 07:51:58,917 (INFO) - playground.views - Calling httpbin
+2024-04-05 07:52:01,777 (INFO) - playground.views - Received the response
+2024-04-05 07:52:04,003 (WARNING) - django.request - Not Found: /playground
+2024-04-05 07:52:09,224 (INFO) - playground.views - Calling httpbin
+2024-04-05 07:52:12,081 (INFO) - playground.views - Received the response
+2024-04-07 03:12:43,105 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-07 03:13:38,903 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-07 03:13:44,660 (WARNING) - django.request - Not Found: /favicon.ico
+2024-04-07 03:14:11,445 (WARNING) - silk.model_factory - Response to request with pk 05dddde2-f19b-4152-aad0-0da9dcf116b1 has content type text/javascript but was unable to parse it
+2024-04-07 03:14:14,948 (WARNING) - silk.model_factory - Response to request with pk 111fbbb0-13ca-45af-8179-80b278a842f9 has content type text/javascript but was unable to parse it
+2024-04-07 03:17:51,984 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-04-07 03:18:22,012 (WARNING) - silk.model_factory - Response to request with pk 771e3059-bb17-4112-a0c2-bc1c69ea6201 has content type text/javascript but was unable to parse it
